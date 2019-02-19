@@ -425,3 +425,190 @@ ls
 cd py36/
 exit
 logout
+ls
+cd myblogapp2/
+cd myblogapp/
+cd ..
+ls
+cd myblogapp/
+ls
+dpkg -l git
+ls
+cd .
+cd ..
+ls
+cd ..
+ld
+ls
+git init
+git commit -m "Initial Commit"
+git remote add origin https://github.com/Oliverteru/blogProduction
+git push -u origin master
+git push -u origin masterblogProduction-
+git push -u origin master
+cd myblogapp2/myblogapp/myblogapp/
+cat urls.py 
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd myblogapp2/
+ls
+cd /etc/systemd/system/
+ls
+cat gunicorn.service 
+cd .
+ls
+cd
+ls
+cd ..
+ls
+cd //
+cd ..
+cd 
+cd ../..
+ls
+cd bin/
+ls
+cd ls
+cat ls
+ls
+git commit -m "modified views and urls in app dir"
+git push -u origin master
+cd myblogapp2/myblogapp/
+cd posts/
+vim urls.py 
+vim views.py 
+cd myblogapp2/myblogapp/posts/
+cat views.py 
+sudo systemctl restart gunicorn'
+sudo systemctl restart\\ gunicorn
+sudo systemctl status gunicorn
+sudo systemctl restart nginx
+sudo systemctl status gunicorn
+exit
+cd myblogapp2/myblogapp/
+ls
+cd myblogapp/
+vim urls.py 
+cd /etc/nginx/
+ls
+sudo nginx -t
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+source activate py36
+cd
+cd my
+cd myblogapp2/
+ls
+cd
+ls
+source activate py36
+source py36/bin/activate
+which gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+ls
+cd myblogapp2/myblogapp/
+ls
+gunicorn --bind 0.0.0.0:8000 myblogapp.wsgi
+deactivate
+sudo vim /etc/systemd/system/gunicorn.service 
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+ls
+cd ..
+ls
+ls -al
+sudo systemctl status gunicorn
+sudo journalctl -u gunicorn
+cd /etc/nginx/sites-available/
+ls
+vi myblogapp 
+sudo nginx -t
+sudo systemctl restart nginx.servicex
+sudo systemctl restart nginx
+sudo systemctl status gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl status gunicorn
+cd ..
+cd ubuntu/myblogapp2/myblogapp/
+ls
+python manage.py makemigrations
+cd ..
+ls
+cd ..
+source py36/bin/activate
+cd myblogapp2/myblogapp/
+ks
+ls
+python manage.py makemigration
+
+sudo systemctl status gunicorn
+sudo systemctl status gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl status gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl status gunicorn
+ls
+cd py36/bin/activate
+source  py36/bin/activate
+pip install django-cleanup
+exit
+vi /etc/nginx/nginx.conf
+sudo vi /etc/nginx/nginx.conf
+sudo systemctl restart nginx
+journalctl -xe
+sudo vi /etc/nginx/nginx.conf
+sudo systemctl restart nginx
+sudo vi /etc/nginx/nginx.conf
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl status gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+cd myblogapp2/myblogapp/
+cd ../..
+source py36/bin/activate
+cd myblogapp2/myblogapp/
+python manage.py makemigrations
+python manage.py migrate
+sudo systemctl status gunicorn
+source deactivate
+sudo systemctl restart gunicorn
+source ../../py36/bin/deactivate
+source deactivate
+cd  ../../py36
+source deactivate
+deactivate
+sudo systemctl restart gunicorn
+sudo systemctl status gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl status gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl status gunicorn
+cd ..
+ls
+cd myblogapp2/myblogapp/
+python manage.py makemigrations
+source ../../py36/bin/activate
+python manage.py makemigrations
+python manage.py migrate
+deactivate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl enable gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl status gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl status gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl status gunicorn
+sudo systemctl restart gunicorn
+ls
+source py36/bin/activate
+which python
+exit

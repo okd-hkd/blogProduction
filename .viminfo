@@ -11,10 +11,10 @@
 ~Msle0~/\<endif\>
 
 # Command Line History (newest to oldest):
-:q!
 :wq
-:wq!
+:q!
 :q
+:wq!
 :w
 
 # Search String History (newest to oldest):
@@ -29,22 +29,42 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
+""1	LINE	0
+	
+"2	CHAR	0
+	
+	
+"-	CHAR	0
 	e
 
 # File marks:
-'0  41  40  ~/.vimrc
-'1  177  0  ~/.vimrc
-'2  143  83  ~/.vimrc
-'3  125  0  ~/.vimrc
-'4  158  4  ~/.vimrc
-'5  103  0  ~/.vimrc
-'6  101  0  ~/.vimrc
-'7  122  30  ~/.vimrc
-'8  61  0  ~/.vimrc
-'9  71  0  ~/.vimrc
+'0  15  26  /etc/nginx/nginx.conf
+'1  16  12  /etc/nginx/nginx.conf
+'2  9  0  /etc/nginx/nginx.conf
+'3  8  20  /etc/nginx/nginx.conf
+'4  11  0  /etc/nginx/nginx.conf
+'5  10  18  /etc/nginx/sites-available/myblogapp
+'6  2  1  /etc/systemd/system/gunicorn.service
+'7  22  0  ~/myblogapp2/myblogapp/myblogapp/urls.py
+'8  5  0  ~/myblogapp2/myblogapp/posts/views.py
+'9  1  0  ~/myblogapp2/myblogapp/posts/urls.py
 
 # Jumplist (newest first):
+-'  15  26  /etc/nginx/nginx.conf
+-'  1  0  /etc/nginx/nginx.conf
+-'  16  12  /etc/nginx/nginx.conf
+-'  9  0  /etc/nginx/nginx.conf
+-'  8  20  /etc/nginx/nginx.conf
+-'  11  0  /etc/nginx/nginx.conf
+-'  10  18  /etc/nginx/sites-available/myblogapp
+-'  1  0  /etc/nginx/sites-available/myblogapp
+-'  2  1  /etc/systemd/system/gunicorn.service
+-'  1  0  /etc/systemd/system/gunicorn.service
+-'  22  0  ~/myblogapp2/myblogapp/myblogapp/urls.py
+-'  1  0  ~/myblogapp2/myblogapp/myblogapp/urls.py
+-'  5  0  ~/myblogapp2/myblogapp/posts/views.py
+-'  1  0  ~/myblogapp2/myblogapp/posts/views.py
+-'  1  0  ~/myblogapp2/myblogapp/posts/urls.py
 -'  41  40  ~/.vimrc
 -'  1  0  ~/.vimrc
 -'  177  0  ~/.vimrc
@@ -76,20 +96,17 @@
 -'  12  0  ~/myblogapp2/myblogapp/posts/templates/posts/post_detail.html
 -'  27  34  ~/myblogapp2/myblogapp/myblogapp/urls.py
 -'  28  1  ~/myblogapp2/myblogapp/myblogapp/urls.py
--'  1  0  ~/myblogapp2/myblogapp/myblogapp/urls.py
 -'  30  77  ~/myblogapp2/myblogapp/myblogapp/urls.py
 -'  1  0  ~/myblogapp2/myblogapp/myblogapp/url
 -'  22  0  ~/myblogapp2/myblogapp/manage.py
 -'  1  0  ~/myblogapp2/myblogapp/manage.py
 -'  133  20  ~/myblogapp2/myblogapp/myblogapp/settings.py
 -'  12  61  /etc/nginx/sites-available/myblogapp
--'  1  0  /etc/nginx/sites-available/myblogapp
 -'  2  0  /etc/nginx/sites-available/myblogapp
 -'  2  0  /etc/nginx/sites-available/default
 -'  1  0  /etc/nginx/sites-available/default
 -'  5  7  /etc/nginx/sites-available/myblogapp
 -'  9  50  /etc/systemd/system/gunicorn.service
--'  1  0  /etc/systemd/system/gunicorn.service
 -'  8  39  /etc/systemd/system/gunicorn.service
 -'  7  0  /etc/systemd/system/gunicorn.service
 -'  1  0  /etc/systemd/system/sshd.service
@@ -117,34 +134,97 @@
 -'  87  4  ~/myblogapp2/myblogapp/myblogapp/settings.py
 -'  80  7  ~/myblogapp2/myblogapp/myblogapp/settings.py
 -'  85  7  ~/myblogapp2/myblogapp/myblogapp/settings.py
--'  12  61  /etc/nginx/sites-available/myblogapp
--'  1  0  /etc/nginx/sites-available/myblogapp
--'  2  0  /etc/nginx/sites-available/myblogapp
 -'  2  0  /etc/nginx/sites-available/default
 -'  1  0  /etc/nginx/sites-available/default
--'  5  7  /etc/nginx/sites-available/myblogapp
--'  9  50  /etc/systemd/system/gunicorn.service
--'  1  0  /etc/systemd/system/gunicorn.service
--'  8  39  /etc/systemd/system/gunicorn.service
--'  7  0  /etc/systemd/system/gunicorn.service
 -'  1  0  /etc/systemd/system/sshd.service
--'  12  61  /etc/nginx/sites-available/myblogapp
--'  1  0  /etc/nginx/sites-available/myblogapp
--'  2  0  /etc/nginx/sites-available/myblogapp
 -'  2  0  /etc/nginx/sites-available/default
 -'  1  0  /etc/nginx/sites-available/default
--'  5  7  /etc/nginx/sites-available/myblogapp
--'  9  50  /etc/systemd/system/gunicorn.service
+-'  2  1  /etc/systemd/system/gunicorn.service
 -'  1  0  /etc/systemd/system/gunicorn.service
--'  8  39  /etc/systemd/system/gunicorn.service
--'  7  0  /etc/systemd/system/gunicorn.service
--'  1  0  /etc/systemd/system/sshd.service
--'  26  1  ~/myblogapp2/myblogapp/myblogapp/urls.py
--'  1  0  ~/myblogapp2/myblogapp/myblogapp/url
--'  22  0  ~/myblogapp2/myblogapp/manage.py
--'  1  0  ~/myblogapp2/myblogapp/manage.py
+-'  22  0  ~/myblogapp2/myblogapp/myblogapp/urls.py
+-'  1  0  ~/myblogapp2/myblogapp/myblogapp/urls.py
+-'  5  0  ~/myblogapp2/myblogapp/posts/views.py
+-'  1  0  ~/myblogapp2/myblogapp/posts/views.py
+-'  1  0  ~/myblogapp2/myblogapp/posts/urls.py
+-'  10  18  /etc/nginx/sites-available/myblogapp
+-'  1  0  /etc/nginx/sites-available/myblogapp
 
 # History of marks within files (newest to oldest):
+
+> /etc/nginx/nginx.conf
+	"	15	26
+	^	15	27
+	.	15	26
+	+	8	1
+	+	73	2
+	+	74	0
+	+	8	7
+	+	9	0
+	+	15	27
+	+	9	0
+	+	15	26
+
+> /etc/nginx/sites-available/myblogapp
+	"	10	18
+	^	12	62
+	.	12	62
+	+	1	7
+	+	13	5
+	+	5	67
+	+	7	45
+	+	8	7
+	+	9	0
+	+	10	17
+	+	13	6
+	+	10	17
+	+	11	23
+	+	10	18
+	+	8	7
+	+	6	25
+	+	5	31
+	+	1	7
+	+	12	86
+	+	14	0
+	+	7	44
+	+	12	62
+
+> /etc/systemd/system/gunicorn.service
+	"	2	1
+	^	9	51
+	.	8	41
+	+	1	6
+	+	5	9
+	+	11	8
+	+	13	0
+	+	12	25
+	+	9	107
+	+	2	23
+	+	8	41
+
+> ~/myblogapp2/myblogapp/myblogapp/urls.py
+	"	22	0
+	^	30	78
+	.	30	0
+	+	21	0
+	+	20	39
+	+	27	65
+	+	27	2
+	+	22	79
+	+	27	1
+	+	1	29
+	+	23	0
+	+	31	0
+	+	30	0
+
+> ~/myblogapp2/myblogapp/posts/views.py
+	"	5	0
+	^	5	0
+	.	6	0
+	+	5	57
+	+	6	0
+
+> ~/myblogapp2/myblogapp/posts/urls.py
+	"	1	0
 
 > ~/.vimrc
 	"	41	40
@@ -305,21 +385,6 @@
 	+	1	10
 	+	11	44
 
-> ~/myblogapp2/myblogapp/myblogapp/urls.py
-	"	27	34
-	^	30	78
-	.	30	0
-	+	21	0
-	+	20	39
-	+	27	65
-	+	27	2
-	+	22	79
-	+	27	1
-	+	1	29
-	+	23	0
-	+	31	0
-	+	30	0
-
 > ~/myblogapp2/myblogapp/posts/templates/posts/index.html
 	"	31	29
 	^	31	30
@@ -354,45 +419,8 @@
 > ~/myblogapp2/myblogapp/manage.py
 	"	22	0
 
-> /etc/nginx/sites-available/myblogapp
-	"	12	61
-	^	12	62
-	.	12	62
-	+	1	7
-	+	13	5
-	+	5	67
-	+	7	45
-	+	8	7
-	+	9	0
-	+	10	17
-	+	13	6
-	+	10	17
-	+	11	23
-	+	10	18
-	+	8	7
-	+	6	25
-	+	5	31
-	+	1	7
-	+	12	86
-	+	14	0
-	+	7	44
-	+	12	62
-
 > /etc/nginx/sites-available/default
 	"	2	0
-
-> /etc/systemd/system/gunicorn.service
-	"	9	50
-	^	9	51
-	.	8	41
-	+	1	6
-	+	5	9
-	+	11	8
-	+	13	0
-	+	12	25
-	+	9	107
-	+	2	23
-	+	8	41
 
 > /etc/systemd/system/sshd.service
 	"	1	0
