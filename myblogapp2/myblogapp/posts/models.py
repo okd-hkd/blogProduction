@@ -4,7 +4,7 @@ from django.db import models
 class Post(models.Model):
     title = models.CharField(max_length=100)
     published = models.DateTimeField()
-    image = models.ImageField(upload_to='media/')
+    image = models.ImageField(upload_to='media/') # Base_dir + media に画像を保存してpathをDBに保存
     body = models.TextField()
 
     def __str__(self):

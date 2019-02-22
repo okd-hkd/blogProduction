@@ -14,7 +14,7 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+# BASE_DIR = /home/ubuntu/myblogapp2/myblogapp/myblogapp
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -23,13 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'vu3lh)*%v&job)%zh9pr7nwhe%oegi==j+k01n#pl13@cgbvas'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['54.199.181.123']
 
-
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -73,24 +71,22 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'myblogapp.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 
 DATABASES = {
-      'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-      'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-      'NAME': 'myblogapp',
-      'USER': 'mybloguser',
-      'PASSWORD':'p@ssword',
-      'HOST': 'localhost',
-      'PORT': '',
+    'default': {
+        #        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        #        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'myblogapp',
+        'USER': 'mybloguser',
+        'PASSWORD': 'p@ssword',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
@@ -110,7 +106,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
@@ -126,11 +121,12 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-MEDIA_URL = '/pics/'
+MEDIA_URL = '/pics/'  # MEDIA_URLは画像が置かれているディレクリ指定ではなく、URLでどう見せるのかという設定
 MEDIA_ROOT = BASE_DIR
+# BASE_DIR = /home/ubuntu/myblogapp2/myblogapp/myblogapp
+# BASE_DIR + models.pyで指定したmedia/ に画像が保存される。

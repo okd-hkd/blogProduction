@@ -29,5 +29,6 @@ urlpatterns = [
     # path('posts/', PostListView.as_view(), name='index'),
     path('admin/', admin.site.urls),
     re_path(r'posts/(?P<post_id>[0-9]+)/$', views.post_detail, name='post_detail')
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) \
-   + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+]
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

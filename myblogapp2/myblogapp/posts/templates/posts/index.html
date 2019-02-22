@@ -38,6 +38,7 @@
   <h3>Latest posts</h3>
 
   {% for post in posts.all %}
+    {% load static %}
     <a href ="{% url 'post_detail' post.id %}">{{ post.title }}</a>
     <br /><br />
     {{ post.published }}

@@ -612,3 +612,163 @@ ls
 source py36/bin/activate
 which python
 exit
+ls -al
+history 
+git commit -m "added pagenation"
+git commit . -m "added pagenation"
+git push -u origin master
+cd myblogapp2/myblogapp/
+ls
+cd media/
+la
+ls -alh
+cd myblogapp2/myblogapp/
+python manage.py collectstatic
+source ../../py36/bin/activate
+python manage.py collectstatic
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+pwd
+python manage.py collectstatic
+python manage.py makemigrations
+sudo systemctl restart gunicorn
+python manage.py migrate
+cd /etc/nginx/sites-available/
+ls
+vim myblogapp 
+cd 
+cd myblogapp2/myblogapp/
+ls
+cd myblogapp/
+ls
+pwd
+sudo systemctl restart gunicorn
+cd /etc/nginx/
+ls
+vim nginx.conf 
+ls
+cd myblogapp2/myblogapp/
+sudo systemctl restart gunicorn
+cd /etc/nginx/
+ls
+cd conf.d/
+ls
+cd ..
+vim nginx.conf 
+cd sites-available/
+ls
+vim myblogapp 
+sudo vim myblogapp 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd 
+cd myblogapp2/myblogapp/
+python manage.py collectststic
+source ../../py36/bin/activate
+python manage.py collectststic
+python manage.py collectstatic
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+cd 
+ls
+cd ..
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+git commit -m "bug fix; imagefield "
+cd ubuntu/
+cd myblogapp2/
+ls
+ls -al
+cd ..
+ls -al
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+v
+sudo systemctl status gunicorn
+source py36/bin/activate
+sudo systemctl status gunicorn
+sudo systemctl status nginx
+sudo systemctl status gunicorn
+pip install whitenoise
+sudo systemctl status gunicorn
+which gunicorn
+deactivate
+cd /etc/systemd/system/
+ls
+vim gunicorn.service 
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+sudo systemctl status gunicorn
+exit
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+source py36/bin/activate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd /etc/nginx/sites-available/
+ls
+vim myblogapp 
+cd
+spurce deactivate
+source adeactivate
+source deactivate
+deactivate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd myblogapp2/myblogapp/
+source ../../py36/bin/activate
+ls
+python manage.py makemigrations
+python manage.py migrate
+cd /etc/nginx/
+lsfdsfsgfsdfsdf dfdsfsdsfsf
+cd sites-available/
+vim default 
+vim myblogapp 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+systemctl restart nginx
+deactivate
+systemctl restart gunicorn
+cd /etc/nginx/fdsfdffsvsdcsexit
+exit
+systemctl restart gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl status
+sudo systemctl restart nginx
+cd /etc/nginx/sites-available/
+ls
+sudo vim myblogapp 
+sudo systemctl restart nginx
+sudo vim myblogapp 
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo vim myblogapp 
+cd /etc/nginx/sites-available/
+ls
+vim myblogapp 
+sudo vim myblogapp 
+sudo systemctl restart nginx
+history
+exit
+ls
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+clear
+cd py36/lib/python3.5/site-packages/django/contrib/admin
+pwd
+ls
+cd static/
+ls
+cd admin/
+ls
+exit
