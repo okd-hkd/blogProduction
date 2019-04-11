@@ -7,7 +7,7 @@ from django.core.paginator import Paginator
 
 class PostListView(ListView):
     model = Post
-    paginate_by = 4
+    paginate_by = 3
     # context_object_name = 'posts'
 
     def get_queryset(self):

@@ -23,9 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'vu3lh)*%v&job)%zh9pr7nwhe%oegi==j+k01n#pl13@cgbvas'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['54.199.181.123']
+# ALLOWED_HOSTS = ['www.okd-blog.net', '54.64.198.113']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = [
@@ -38,6 +39,7 @@ INSTALLED_APPS = [
     'posts.apps.PostsConfig',
     'debug_toolbar',
     'django_cleanup',
+    'markdownx',
 ]
 
 MIDDLEWARE = [
@@ -56,7 +58,8 @@ ROOT_URLCONF = 'myblogapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        # 'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'posts/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -126,7 +129,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-MEDIA_URL = '/pics/'  # MEDIA_URLは画像が置かれているディレクリ指定ではなく、URLでどう見せるのかという設定
-MEDIA_ROOT = BASE_DIR
+MEDIA_URL = '/media/' # MEDIA_URLはディレクトリの公開 ベースURL　ここ以下に uploadディレクトリがくる
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')  # Django がアップロードされたファイルを置く場所
 # BASE_DIR = /home/ubuntu/myblogapp2/myblogapp/myblogapp
 # BASE_DIR + models.pyで指定したmedia/ に画像が保存される。
+
+GOOGLE_ANALYTICS_TRACKING_ID = "UA-136692212-1"
+

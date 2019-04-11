@@ -772,3 +772,722 @@ ls
 cd admin/
 ls
 exit
+git commit -m "Nginx needs to be checked"
+git add .
+git commit -m "Nginx needs to be checked"
+git push -u origin master
+which postgresql
+postgres --version
+source py36/bin/activate
+postgre --version
+postgres --version
+psql -h localhost template1
+rpm -qa|grep 'postgres'
+psql --version
+pip list
+exit
+cd myblogapp2/
+ls
+cd myblogapp/
+ls
+source activate py35
+source ../../py36/bin/activate
+ls
+python manage.py collectstatic
+cd /etc/nginx/sites-available/
+vim myblogapp 
+sudo vim myblogapp 
+deactivate
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo vim myblogapp 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd 
+source py36/bin/activate
+ls
+cd myblogapp2/myblogapp/
+python manage.py makemigarations
+python manage.py makemigrations
+python manage.py migrate
+sudo systemctl restart gunicorn
+deactivate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd /etc/nginx/sites-available/
+ls
+sudo vim myblogapp 
+cd 
+cd py36/bin/ac
+cd py36/bin/activate
+source py36/bin/activate
+cd myblogapp2/myblogapp/
+deactivate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+source ../../py36/bin/activate
+python manage.py makemigrations
+python manage.py migrate
+deactivate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+find IMG_0189.JPG
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd /etc/nginx/sites-available/
+sudo vim myblogapp 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd
+cd myblogapp2/myblogapp/
+ls
+ls pics/media/
+cd /etc/nginx/sites-available/
+sudo vimy
+sudo vim myblogapp  
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+cd /etc/nginx/sites-available/
+sudo vim myblogapp  
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+cd
+cd myblogapp2/myblogapp/
+cd migrate
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd /etc/nginx/sites-available/
+sudo vim myblogapp  
+dc
+cd 
+source py36/bin/activate
+cd myblogapp2/myblogapp/
+python manage.py migrate
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+deacticate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+python manage.py collectstatic
+deactivate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd /etc/nginx/sites-available/
+sudo vim myblogapp  
+sudo systemctl restart gunicornsudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+ls
+cd
+cd myblogapp2/myblogapp/
+cd media/
+ls
+cp 0001.png ../pics/media/
+cd ../pics/media/
+ls
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+cd /etc/nginx/sites-available/
+sudo vim myblogapp  
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo vim myblogapp  
+cd 
+cd myblogapp2/myblogapp/media/
+ls
+cp 1547975636907770.jpg ../pics/media/
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd 
+source py36/bin/activate
+cd myblogapp2/myblogapp/
+python manage.py makemigrations
+python manage.py migrate
+deactivate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd posts/
+cd migrations/
+rm -r 0002_auto_20190225_1433.py 
+cd ../..
+source ../../py36/bin/activate
+python manage.py migrate
+sudo systemctl restart nginx
+python manage.py migrate
+cd myblogapp2/myblogapp/media/
+cd media/
+ls
+cp . ../pics/media/
+cp / ../pics/media/
+cp ./ ../pics/media/
+cp * ../pics/media/
+cp ./* ../pics/media/
+cp *.jpg ../pics/media/
+cp *.png ../pics/media
+cd /etc/nginx/sites-available/
+sudo vim myblogapp 
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+deactivate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo vim myblogapp 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cp *.jpg ../pics/media/
+cd
+cd myblogapp2/MY
+cd myblogapp2/myblogapp/
+cd media/
+cp *.jpg ../pics/media/
+sudo systemctl restart gunicorn\
+sudo systemctl restart nginx
+cd ../pics/media/
+ls
+cd /etc/nginx/sites-available/
+sudo vim myblogapp 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd myblogapp2/myblogapp/
+ls
+cd myblogapp/
+vim settings.py 
+cd
+ls -alh
+vim .vimrc 
+source py36/bin/activate
+pip install django-markdownx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+cd myblogapp2/myblogapp/
+python3 manage.py collectstatic
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+exit
+cd 
+python
+django --version
+django -V
+django --V
+django -version
+source py36/bin/activate
+cd py36/
+ls
+cd lib/
+ls
+cd python3.5/
+python
+cd /home/ubuntu/py36/lib/python3.5/site-packages/django
+ls
+cd contrib/
+ls
+cd ..
+cd urls/
+ls
+cd ..
+ls
+cat urls/
+cd urls/
+ls
+ls -al
+ls
+cd ..
+ls
+ls -al
+cd urls/__pycache__/
+ls
+cd ..
+ls
+cat conf.py 
+vim conf.py 
+cd /etc/nginx/sites-available/
+vim myblogapp 
+ls
+sudo apt-get update
+sudo certbot --nginx
+certbot --nginx
+sudo apt-get install software-properties-common
+sudo add-apt-repository universe
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install certbot python-certbot-nginx 
+sudo certbot --nginx
+sudo certbot -a dns-plugin -i nginx -d "*.example.com" -d example.com --server https://acme-v02.api.letsencrypt.org/directory
+sudo certbot renew --dry-run
+sudo certbot renew --post-hook "systemctl restart nginx"
+sudo crontab -e
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo certbot --nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo certbot renew --post-hook "systemctl restart nginx"
+cd /etc/nginx/sites-available/
+vim myblogapp 
+sudo vim myblogapp 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+vim myblogapp 
+sudo vim myblogapp 
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+dig okd-blog.net
+sudo vim myblogapp 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo vim myblogapp 
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+dig www.okd-blog.net
+cd
+cd myblogapp2/myblogapp/
+ls
+cd myblogapp/
+ls
+vim settings.py 
+dig www.okd-blog.net
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+vim settings.py 
+cd 
+cd nginx/
+cd /etc/nginx/sites-available/
+sudo vim myblogapp 
+cd 
+cd myblogapp2/myblogapp/myblogapp/
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo vim myblogapp 
+cd myblogapp2/myblogapp/myblogapp/
+cd /etc/nginx/sites-available/
+sudo vim myblogapp 
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+cd /etc/nginx/sites-available/
+vim myblogapp 
+vim myblogapp
+sudo vim myblogapp
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+cd myblogapp2/myblogapp/myblogapp/
+ls
+vim context_processors.py
+ls
+vim context_processors.p
+vim context_processors.py
+ls
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+cd /etc/nginx/sites-available/
+vim myblogapp 
+sudo vim myblogapp 
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo vim myblogapp 
+sudo nginx -t
+sudo vim ../nginx.conf 
+sudo vim myblogapp 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo vim myblogapp 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+cd myblogapp2/myblogapp/myblogapp/
+ls
+cd ..
+ls
+source ../../py36/bin/activate
+ls
+python manage.py makemigrations
+python manage.py migrate
+source deactivate
+deactivate
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+exit
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+exit
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+cd /etc/letsencrypt/live/
+ls
+sudo cd /etc/letsencrypt/live/
+cd /etc/letsencrypt/live
+cd /etc/letsencrypt
+ls
+ls live/
+sudo ls live/
+pwd
+exit
+ls
+fint letsencrypt
+find ./ letsencrypt
+ls
+cd myblogapp2/
+ls
+cd myblogapp/
+ls
+cd myblogapp/
+ls
+vim context_processors.py 
+cd ../../
+cd ..
+ls
+ls /etc/ssl/certs/
+ls /etc/letsencrypt/
+ls /etc/letsencrypt/live/
+sudo ls /etc/letsencrypt/live/
+apt list
+sudo systemctl stop nginx
+sudo letsencrypt certonly --standalone -d okd-blog.net
+vim /etc/nginx/sites-available/myblogapp 
+sudo systemctl reload nginx
+sudo systemctl restart nginx
+ls
+cd myblogapp2/
+cd 
+sudo systemctl restart nginx
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl reload nginx
+sudo systemctl reloadgunicorn
+sudo systemctl reload gunicorn
+sudo systemctl restart  gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+ls
+cd myblogapp2/
+ls
+c\cd 
+cd 
+ls
+find  certbot
+history
+ls
+cd /var/www/
+ls
+sudo certbot --nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd /etc/nginx/sites-available/
+ls
+vim myblogapp 
+history
+sudo certbot --nginx -d okd-blog.net -d www.okd-blog.net
+ls  /etc/letsencrypt/live/
+sudo ls  /etc/letsencrypt/live/
+cd /etc/nginx/sites-available/
+ls
+vim myblogapp 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+ls
+sudo ufw allow 443
+sudo ufw reload
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+nginx -t
+sudo vim myblogapp 
+cd /etc/letsencrypt/live/
+ls
+cd /etc/letsencrypt/live/
+sudo /etc/letsencrypt/live/
+sudo cd /etc/letsencrypt/live/
+cd /etc/letsencrypt/live/
+nginx -t && nginx -s reload
+sudo vim myblogapp 
+sudo certbot --nginx -d okd-blog.net
+nginx -t && nginx -s reload
+sudo nginx -t && nginx -s reload
+sudo vim myblogapp 
+sudo nginx -t && nginx -s reload
+sudo vim myblogapp 
+sudo nginx -t && nginx -s reload
+sudo nginx -
+sudo nginx -t
+sudo ufw allow 443
+sudo ufw reload
+iptables -L
+sudo iptables -L
+ufw status 
+sudo ufw status  
+sudo ufw enable
+sudo ufw status
+sudo ufw allow 22
+sudo ufw status
+sudo nginx -t
+sudo nginx -t && nginx -s reload
+sudo chmod -R 755 /var/log/nginx;
+sudo nginx -t && nginx -s reload
+sudo chmod -R 755 /var/log/nginx/error.log
+sudo nginx -t && nginx -s relo
+sudo systemctl restart nginx
+sudo systemctl restargunicorn
+sudo systemctl restat rgunicorn
+ll /etc/letsencrypt/live/
+ll /etc/letsencrypt/live/okd-blog
+sudo ll /etc/letsencrypt/live/okd-blog
+sudo ls /etc/letsencrypt/live/
+sudo vim  /etc/letsencrypt/live/
+sudo ls /etc/letsencrypt/live/okd-blog.net
+sudo ls -lah  /etc/letsencrypt/live/okd-blog.net
+sudo vim myblogapp 
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+ls
+sudo ufw allow 80
+cd ..
+ls
+vim nginx.conf 
+cd sites-available/
+vim myblogapp 
+sudo vim myblogapp 
+nginx -t && nginx -s reload
+sudo chmod -R 766 /var/log/nginx/
+nginx -t && nginx -s reload
+sudo nginx -t && nginx -s reload
+sudo vim myblogapp 
+sudo nginx -t && nginx -s reload
+sudo ls -alh /etc/letsencrypt/live/okd-blog.net/
+sudo vim myblogapp 
+sudo nginx -t && nginx -s reload
+sudo vim myblogapp 
+sudo nginx -t && nginx -s reload
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+ls
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo nginx -t && nginx -s reload
+sudo vim myblogapp 
+sudo systemctl restart nginx
+sudo nginx -t && nginx -s reload
+cd /etc/nginx/sites-available/
+sudo vim myblogapp 
+sudo nginx -t && nginx -s reload
+sudo vim myblogapp 
+sudo nginx -t && nginx -s reload
+sudo vim myblogapp 
+sudo vim c
+sudo vim default 
+ls ../sites-enabled/
+ls alh ../sites-enabled/
+ls -alh ../sites-enabled/
+exit
+sudo systemctl nginx -l
+sudo systemctl status nginx -l
+
+cd /etc/nginx/sites-available/
+sudo vim myblogapp 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+exit
+cd /etc/nginx/sites-available/
+sudo vim myblogapp 
+sudo nginx -t && nginx -s reload
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+ls
+sudo ufw allow 'Nginx Full'
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+cd myblogapp2/myblogapp/ls
+ls
+cd myblogapp2/
+ls
+cd myblogapp/
+ls
+python manage.py makemigrations
+source activate py36
+cd ../../py36/
+ls
+ls bin/
+cd ..
+source py36/bin/activate
+cd myblogapp2/myblogapp/m
+cd myblogapp2/myblogapp/myblogapp/
+python manage.py makemigrations
+ls
+cd ..
+ls
+python manage.py makemigrations
+python manage.py migrate
+exit
+cd myblogapp2/myblogapp/
+ls
+python manage.py makemigrations
+source ../../py36/bin/activate
+ls
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+source deactivate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+source deactivate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd myblogapp2/myblogapp/
+ls
+source ../../py36/bin/activa
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+exit
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+cd myblogapp2/myblogapp/
+ls
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+exit
+ls
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+exit

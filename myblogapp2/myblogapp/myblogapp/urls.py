@@ -18,17 +18,22 @@ from django.contrib import admin
 from django.conf.urls.static import static
 from django.conf import settings
 from posts import views
+from django.conf.urls import url
 
 # if settings.DEBUG:
-#    import debug_toolbar
+
+
+
 
 urlpatterns = [
-    # path('<url>', views, nickname) nicknames allow us to chane URLs wwithout worrying rewriting urlpatterns
+    # path('<url>', views, nickname) nicknames allow us to chane URLs without worrying rewriting urlpatterns
     # path('__debug__/', include(debug_toolbar.urls)),
     path('posts/', include('posts.urls')),
     # path('posts/', PostListView.as_view(), name='index'),
     path('admin/', admin.site.urls),
+    path('markdownx/', include('markdownx.urls')),
     re_path(r'posts/(?P<post_id>[0-9]+)/$', views.post_detail, name='post_detail')
+    # url(r'^pics/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
 ]
-urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
