@@ -1491,3 +1491,81 @@ sudo systemctl restart nginx
 sudo systemctl restart gunicorn
 sudo systemctl restart nginx
 exit
+git add .
+git commit 
+git commit -m "many changes"
+git push
+git remote -v
+git remote set-url origin https://github.com/okadateru/blogProduction 
+git push
+export LC_ALL="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+sudo dpkg-reconfigure locales
+exut
+exit
+cd py36/bin/
+ls
+cat /etc/systemd/system/gunicorn.service
+ls
+cat /etc/nginx/sites-available/
+cat /etc/nginx/sites-available/myblogapp 
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+exit
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo vim /etc/systemd/system/gunicorn.service 
+cat /etc/nginx/sites-available/myblogapp 
+sudo vim /var/log/nginx/access.log
+ls
+cd myblogapp2/
+sudo vim /etc/nginx/sites-available/myblogapp 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+exit
+ls /etc/passwd
+ls /etc/shadow
+cat /etc/shadow
+sudo cat /etc/shadow
+cat /etc/passwd
+:wq
+exit
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+git commit 'before internationalization' 
+git push
+git branch
+git branch -b i18n
+git branch -a
+git branch 
+git branch -b 'l18n'
+git branch l18n
+git branch 
+git  checkout i18n
+git  checkout l18n
+sudo systemctl restart nginx
+locale-gen ja_JP.UTF-8
+sudo locale-gen ja_JP.UTF-8
+dpkg-reconfigure locale
+sudo locale-gen en_US.UTF-8
+sudo dpkg-reconfigure locale
+exit
+la
+sudo locale-gen en_US.UTF-8
+git branch
+git checkout master
+exit
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+git branch

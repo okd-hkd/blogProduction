@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+from django.utils.translation import ugettext_lazy as _
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,10 +25,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'vu3lh)*%v&job)%zh9pr7nwhe%oegi==j+k01n#pl13@cgbvas'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-# ALLOWED_HOSTS = ['www.okd-blog.net', '54.64.198.113']
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['54.64.198.113', 'okd-blog.net', 'www.okd-blog.net' ]
+# ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = [
@@ -112,8 +114,13 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
-# LANGUAGE_CODE = 'ja'
+# LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ja'
+
+LANGUAGES = [
+    ('en', _('English')),
+    ('ja', _('Japanese')),
+]
 
 # TIME_ZONE = 'UTC'
 TIME_ZONE = 'Asia/Tokyo'
@@ -123,6 +130,10 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
