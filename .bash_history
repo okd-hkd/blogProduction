@@ -1569,3 +1569,189 @@ exit
 sudo systemctl restart nginx
 sudo systemctl restart gunicorn
 git branch
+source py36/bin/activate
+django-admin makemessages -l ja
+pip3 install python-gettext
+django-admin makemessages -l ja
+sudo apt install gettext
+django-admin makemessages -l ja
+source deactivate
+django-admin makemessages -l ja
+pip3 uninstall python-gettext
+django-admin makemessages -l ja
+sudo apt install gettext
+source deactivate
+django-admin makemessages -l ja
+deactivate
+django-admin makemessages -l ja
+sudo apt install python-django-common
+django-admin makemessages -l ja
+source py36/bin/activate
+django-admin makemessages -l ja
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+django-admin makemessages -l ja
+deactivate
+django-admin makemessages -l ja
+source py36/bin/activate
+django-admin makemessages -l en
+django-admin makemessages -l ja
+which django
+which django0admin
+which django-admin
+/home/ubuntu/py36/bin/django-admindjango-admin makemessages -l ja
+/home/ubuntu/py36/bin/django-admin
+/home/ubuntu/py36/bin/django-admin makemessages -l ja
+deactivate
+sudo apt-get uninstall software-properties-common
+ls
+cd myblogapp2/
+ls
+cd myblogapp/
+/home/ubuntu/py36/bin/django-admin makemessages -l ja
+/home/ubuntu/py36/bin/django-admin makemessages -l en
+/home/ubuntu/py36/bin/django-admin compilemessages\
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+nginx -t
+sudo nginx -t
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+dscacheutil -flushcache
+sudo nginx -t
+sudo nginx -t myblogapp/
+sudo nginx -t myblogapp
+sudo nginx -t 
+sudo nginx -t myblogapp
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo nginx -t
+git add .
+git commit 'i18n first step done'
+git commit -m 'i18n first step done'
+git push
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+
+source py36/bin/activate
+django-admin
+/home/ubuntu/py36/lib/python3.5/site-packages/django-admin makemessages -l jacdcsdfdsvsdv
+/home/ubuntu/py36/lib/python3.5/site-packages/django/bin/django-admin makemessages -l en
+sudo systemctl restart nginxcdscdsfdsfsdfafasdas
+cd /home/ubuntu/py36/lib/python3.5/site-packages/django/
+ls
+cd bin/
+ls
+/home/ubuntu/py36/lib/python3.5/site-packages/django/bin/django-admin makemessages -l en
+django-admin makemessages -l en
+sudo systemctl restart nginx
+sudo nginx -t myblogapp
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+/home/ubuntu/py36/lib/python3.5/site-packages/django/bin/django-admin makemessages -l ja
+source py36/bin/activate
+/home/ubuntu/py36/lib/python3.5/site-packages/django/bin/django-admin makemessages -l ja
+cd myblogapp2/
+ls
+cd myblogapp/
+ls
+python3 manage.py makemessages -l ja
+python3 manage.py makemessages -l endjango-admin.py compilemessages
+python3 manage.py compilemessages
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart nginx
+cd myblogapp2/myblogapp/
+ls
+python3 manage.py makemessages -l ja
+source ../../py36/bin/activate
+python3 manage.py makemessages -l ja
+python3 manage.py compilemessages
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+deactivate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+exit

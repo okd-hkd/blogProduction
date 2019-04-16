@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'vu3lh)*%v&job)%zh9pr7nwhe%oegi==j+k01n#pl13@cgbvas'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['54.64.198.113', 'okd-blog.net', 'www.okd-blog.net' ]
 # ALLOWED_HOSTS = ['*']
@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -114,12 +115,22 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-# LANGUAGE_CODE = 'en-us'
+# LANGUAGE_CODE = 'en-US'
 LANGUAGE_CODE = 'ja'
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'posts/locale'),
+)
 
 LANGUAGES = [
     ('en', _('English')),
     ('ja', _('Japanese')),
+]
+
+
+MARKDOWNX_MARKDOWN_EXTENSIONS = [
+    'markdown.extensions.extra',
+    'markdown.extensions.toc',
 ]
 
 # TIME_ZONE = 'UTC'
@@ -131,9 +142,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-LOCALE_PATHS = (
-    os.path.join(BASE_DIR, 'locale'),
-)
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/

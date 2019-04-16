@@ -13,12 +13,14 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
+from django.conf.urls.i18n import i18n_patterns
 from django.urls import include, path, re_path
 from django.contrib import admin
 from django.conf.urls.static import static
 from django.conf import settings
 from posts import views
 from django.conf.urls import url
+
 
 # if settings.DEBUG:
 
@@ -28,8 +30,12 @@ urlpatterns = [
     path('posts/', include('posts.urls')),
     path('admin/', admin.site.urls),
     path('markdownx/', include('markdownx.urls')),
-    re_path(r'posts/(?P<post_id>[0-9]+)/$', views.post_detail, name='post_detail'),
-    # path('i18n/', include('django.conf.urls.i18n')),
+    path('i18n/', include('django.conf.urls.i18n')),
 ]
+
+urlpatterns += i18n_patterns(
+   path('', include('posts.urls')),
+)
+
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

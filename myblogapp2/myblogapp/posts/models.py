@@ -17,4 +17,4 @@ class Post(models.Model):
         return self.body[:40]
 
     def body_to_markdown(self):
-        return markdownify(sdelf.body)
+        return markdownify(self.body)
