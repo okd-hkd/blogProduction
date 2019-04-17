@@ -47,20 +47,21 @@ $
 	 
 
 # ファイルマーク:
-'0  2  0  ~/.gitignore
-'1  284  10  /var/log/nginx/error.log
-'2  161  7  /var/log/nginx/error.log
-'3  1  0  /var/log/nginx/error.log
-'4  204  12  /var/log/nginx/error.log
-'5  189  52  /var/log/nginx/error.log
-'6  14  38  /var/log/nginx/error.log
-'7  10  35  /etc/nginx/sites-available/myblogapp
-'8  12  76  /var/log/nginx/access.log
-'9  12  25  /etc/systemd/system/gunicorn.service
+'0  17  0  ~/.gitignore
+'1  2  0  ~/.gitignore
+'2  284  10  /var/log/nginx/error.log
+'3  161  7  /var/log/nginx/error.log
+'4  1  0  /var/log/nginx/error.log
+'5  204  12  /var/log/nginx/error.log
+'6  189  52  /var/log/nginx/error.log
+'7  14  38  /var/log/nginx/error.log
+'8  10  35  /etc/nginx/sites-available/myblogapp
+'9  12  76  /var/log/nginx/access.log
 
 # ジャンプリスト (新しいものが先):
--'  2  0  ~/.gitignore
+-'  17  0  ~/.gitignore
 -'  1  0  ~/.gitignore
+-'  2  0  ~/.gitignore
 -'  284  10  /var/log/nginx/error.log
 -'  1  0  /var/log/nginx/error.log
 -'  161  7  /var/log/nginx/error.log
@@ -156,17 +157,28 @@ $
 -'  11  44  ~/myblogapp2/myblogapp/posts/templates/posts/post_detail.html
 -'  1  0  ~/myblogapp2/myblogapp/posts/templates/posts/post_detail.html
 -'  12  0  ~/myblogapp2/myblogapp/posts/templates/posts/post_detail.html
--'  27  34  ~/myblogapp2/myblogapp/myblogapp/urls.py
--'  28  1  ~/myblogapp2/myblogapp/myblogapp/urls.py
 
 # ファイル内マークの履歴 (新しいものから古いもの):
 
 > ~/.gitignore
-	"	2	0
-	^	2	0
-	.	2	0
+	"	17	0
+	^	17	0
+	.	16	34
 	+	1	0
 	+	2	0
+	+	1	11
+	+	2	16
+	+	7	0
+	+	6	0
+	+	8	23
+	+	11	7
+	+	12	16
+	+	11	14
+	+	13	0
+	+	14	0
+	+	2	0
+	+	15	10
+	+	16	34
 
 > /var/log/nginx/error.log
 	"	284	10

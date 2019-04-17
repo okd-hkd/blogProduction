@@ -1,2 +1,17 @@
 settings.py
+.pycharm_helpers
+.ssh
+.vim
+.bash_history
+.bashrc
+.bash_logout
+.cloud-locale-test.skip
+.gitignore
+.profile
+.python_history
+.selected_editor
+.sudo_as_admin_successful
+.viminfo
+db.sqlite3
+スクリーンショット_2019-03-22_13.23.25.png
 
