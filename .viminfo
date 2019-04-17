@@ -14,9 +14,9 @@
 $
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
 :q!
 :q
-:wq
 :WQ
 :Q!
 :Q
@@ -47,18 +47,20 @@ $
 	 
 
 # ファイルマーク:
-'0  284  10  /var/log/nginx/error.log
-'1  161  7  /var/log/nginx/error.log
-'2  1  0  /var/log/nginx/error.log
-'3  204  12  /var/log/nginx/error.log
-'4  189  52  /var/log/nginx/error.log
-'5  14  38  /var/log/nginx/error.log
-'6  10  35  /etc/nginx/sites-available/myblogapp
-'7  12  76  /var/log/nginx/access.log
-'8  12  25  /etc/systemd/system/gunicorn.service
-'9  56  0  /etc/nginx/sites-available/myblogapp
+'0  2  0  ~/.gitignore
+'1  284  10  /var/log/nginx/error.log
+'2  161  7  /var/log/nginx/error.log
+'3  1  0  /var/log/nginx/error.log
+'4  204  12  /var/log/nginx/error.log
+'5  189  52  /var/log/nginx/error.log
+'6  14  38  /var/log/nginx/error.log
+'7  10  35  /etc/nginx/sites-available/myblogapp
+'8  12  76  /var/log/nginx/access.log
+'9  12  25  /etc/systemd/system/gunicorn.service
 
 # ジャンプリスト (新しいものが先):
+-'  2  0  ~/.gitignore
+-'  1  0  ~/.gitignore
 -'  284  10  /var/log/nginx/error.log
 -'  1  0  /var/log/nginx/error.log
 -'  161  7  /var/log/nginx/error.log
@@ -156,9 +158,15 @@ $
 -'  12  0  ~/myblogapp2/myblogapp/posts/templates/posts/post_detail.html
 -'  27  34  ~/myblogapp2/myblogapp/myblogapp/urls.py
 -'  28  1  ~/myblogapp2/myblogapp/myblogapp/urls.py
--'  30  77  ~/myblogapp2/myblogapp/myblogapp/urls.py
 
 # ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/.gitignore
+	"	2	0
+	^	2	0
+	.	2	0
+	+	1	0
+	+	2	0
 
 > /var/log/nginx/error.log
 	"	284	10
