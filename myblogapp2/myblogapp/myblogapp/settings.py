@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'vu3lh)*%v&job)%zh9pr7nwhe%oegi==j+k01n#pl13@cgbvas'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['54.64.198.113', 'okd-blog.net', 'www.okd-blog.net' ]
 # ALLOWED_HOSTS = ['*']
@@ -38,16 +38,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'posts.apps.PostsConfig',
-    'debug_toolbar',
+     # 'debug_toolbar', # only for dev env　
     'django_cleanup',
     'markdownx',
+    'django.contrib.sites',  # to determine which apps sitemap to be made
+    'django.contrib.sitemaps',  # for making sitemaps
+    'posts.apps.PostsConfig',  # for site map
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.locale.LocaleMiddleware',
+    'django.middleware.locale.LocaleMiddleware', # for i18n
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -83,9 +85,7 @@ WSGI_APPLICATION = 'myblogapp.wsgi.application'
 
 DATABASES = {
     'default': {
-        #        'ENGINE': 'django.db.backends.sqlite3',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        #        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'NAME': 'myblogapp',
         'USER': 'mybloguser',
         'PASSWORD': 'p@ssword',
@@ -115,7 +115,6 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-# LANGUAGE_CODE = 'en-US'
 LANGUAGE_CODE = 'ja'
 
 LOCALE_PATHS = (
@@ -155,4 +154,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')  # Django がアップロードさ
 # BASE_DIR + models.pyで指定したmedia/ に画像が保存される。
 
 GOOGLE_ANALYTICS_TRACKING_ID = "UA-136692212-1"
+
+SITE_ID = 1
+
 

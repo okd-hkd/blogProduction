@@ -8,7 +8,7 @@ class Post(models.Model):
     title = models.CharField(max_length=100)
     published = models.DateTimeField()
     image = models.ImageField(upload_to='media/', blank=True)  # ドメイン + MEDIA_URL + upload_to に画像を保存してpathをDBに保存
-    body = MarkdownxField(_('body'), help_text='Markdown')
+    body = MarkdownxField('body', help_text='Markdown')
 
     def __str__(self):
         return self.title
@@ -18,3 +18,7 @@ class Post(models.Model):
 
     def body_to_markdown(self):
         return markdownify(self.body)
+
+
+    def get_absolute_url(self):
+        return reverse('post_detail', kwargs={'pk': self.id})

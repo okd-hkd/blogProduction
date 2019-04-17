@@ -6,7 +6,7 @@
 
 {% for post in post_list %}
 
-<a href="{% url 'post_detail' post.id %}">{{ post.title }}</a><br>
+<a href="{% url 'posts:post_detail' post.id %}">{{ post.title }}</a><br>
 {{ post.published }}<br>
 <img src="{{ post.image.url }}" class="img-fluid rounded" style="max-height: 200px;"/>
 <br><br>

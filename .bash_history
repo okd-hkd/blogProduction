@@ -1755,3 +1755,48 @@ sudo systemctl restart nginx
 sudo systemctl restart gunicorn
 sudo systemctl restart nginx
 exit
+git commit -m "markdown,i18n,   highlight.js done"
+git add .
+git commit -m "markdown,i18n,   highlight.js done"
+git push
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+vim /var/log/nginx/error.log
+sudo vim /var/log/nginx/error.log
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo vim /var/log/nginx/error.log
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+vim /var/log/nginx/error.log
+sudo vim /var/log/nginx/error.log
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo vim /var/log/nginx/error.log
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+source py36/bin/activate
+cd myblogapp2/myblogapp/
+python3 manage.py makemigrations
+python3 manage.py migrate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
