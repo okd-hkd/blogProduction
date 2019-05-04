@@ -27,7 +27,7 @@ SECRET_KEY = 'vu3lh)*%v&job)%zh9pr7nwhe%oegi==j+k01n#pl13@cgbvas'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['54.64.198.113', 'okd-blog.net', 'www.okd-blog.net' ]
+ALLOWED_HOSTS = ['54.64.198.113', 'okd-blog.net', 'www.okd-blog.net']
 # ALLOWED_HOSTS = ['*']
 
 # Application definition
@@ -116,6 +116,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
 LANGUAGE_CODE = 'ja'
+#LANGUAGE_CODE = 'zh_hans'
+
+
 
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'posts/locale'),
@@ -123,7 +126,8 @@ LOCALE_PATHS = (
 
 LANGUAGES = [
     ('en', _('English')),
-    ('ja', _('Japanese')),
+    ('ja', _('日本語')),
+    # ('zh_hans', _('中文简体')),
 ]
 
 

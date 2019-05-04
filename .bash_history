@@ -1800,3 +1800,151 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 sudo systemctl restart gunicorn
 sudo systemctl restart nginx
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+git add .
+git commit -m 'rss done'
+git push
+ls
+cd myblogapp2/myblogapp/
+ls
+cd ..
+ls -alh
+cd ..
+ls alh
+ls -alh
+vim .gitignore
+git add .
+git commit -m ''
+git commit -m 'made gitignore file to exclude somefiles to make this repo  public'
+git push
+vim .gitignore
+git add .
+git commit -m 'made gitignore file to exclude somefiles to make this repo  public'
+git push
+exit
+source py36/bin/activate
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+source py36/bin/activate
+cd myblogapp2/myblogapp/
+python manage.py compilemessages
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+python3 manage.py compilemessages
+sudo systemctl restart gunicorn
+python3 manage.py compilemessages
+sudo systemctl restart gunicorn
+python3 manage.py compilemessages
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+ls locale/
+locale
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+locale
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+python manage.py makemessages -l zh_Hans
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+python3 manage.py compilemessages
+python manage.py makemessages -l zh_hans
+python3 manage.py makemessages -l zh_hans
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo systemctl restart nginx
+python manage.py makemessage -l zh_CN
+cd oka
+ls
+cd myblogapp2/myblogapp/
+source ../../py36/bin/activate
+python manage.py makemessage -l zh_CN
+python manage.py makemessages -l zh_CN
+python manage.py  compilemessages
+sudo systemctl restart nginx
+sudo systemctl restart gunicorn
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+source py36/bin/activate
+cd 
+cd myblogapp2/myblogapp/
+python3 manage.py collectstatic
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+python3 manage.py collectstatic
+exit
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+source py36/bin/activate
+cd myblogapp2/myblogapp/
+python3 manage.py collectstatic
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
